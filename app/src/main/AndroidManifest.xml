@@ -68,7 +68,6 @@
         <activity android:name=".activity.MainActivity"/>
         <activity android:name=".activity.WeatherMainActivity"/>
         <activity android:name=".activity.WeatherActivity"/>
-        <activity android:name=".activity.LocationActivity"/>
         <activity android:name=".activity.TulingActivity"/>
         <activity android:name=".activity.UserRegisterActivity"/>
         <activity
@@ -123,10 +122,6 @@
             android:name=".service.AutoUpdateService"
             android:enabled="true"
             android:exported="true"/>
-        <service
-            android:name="com.baidu.location.f"
-            android:enabled="true"
-            android:process=":remote"/>
 
     </application>
 
